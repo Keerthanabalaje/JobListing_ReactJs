@@ -8,8 +8,6 @@ const Filter = (props) => {
                     <div className="term-box" key={i}>
                         <li onClick={props.onClick} className="term" key={i}>{term}</li> 
                         <i className="fa-solid fa-square-xmark"></i>
-                        <i className="fas fa-minus-square">kee</i>
-                        <i onClick={props.onClick} className="fas fa-minus-square" ket={i}></i>
                     </div>
      
                 )}
